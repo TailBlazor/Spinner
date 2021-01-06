@@ -6,7 +6,7 @@ super simple custom spinner designed to work with our TailBlazor component libra
 
 ![Nuget](https://img.shields.io/nuget/v/TailBlazor.Spinner.svg)
 
-![Demo](screenshot.png)
+![Demo](screenshot.gif)
 
 ## Getting Setup
 
