@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>TailBlazor.Spinner</PackageId>
+    <RootNamespace>TailBlazor.Spinner</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>Taylor Watson</Authors>
+    <IsPackage>true</IsPackage>
+    <PackageTags>Blazor; TailBlazorcss; TailBlazor css; tailwind; tailwindcss; Spinner; Spinners;</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/TailBlazor/Spinner</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TailBlazor/Spinner</RepositoryUrl>
+    <Description>
+      A custom animated spinner for the TailBlazor library. Change almost everything about it: size, thickness, speed, animation style, line caps, colour, with options to add more custom styles through tailwindcss classes.
+    </Description>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../logo.png" Pack="true" PackagePath="">
+      <LinkBase>assets</LinkBase>
+    </None>
+    <None Include="../../LICENSE" Pack="true" PackagePath="">
+      <LinkBase>assets</LinkBase>
+    </None>
+  </ItemGroup>
+
+</Project>
