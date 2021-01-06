@@ -45,7 +45,7 @@ Parameter | Default Value
 `Size` | `64`
 `LineStyle` | `LineStyle.Round`
 `Speed` | `2` (seconds)
-`LimeAnimation` | `LineAnimation.Linear`
+`LineAnimation` | `LineAnimation.Linear`
 
 If you need even more customization, you can use `Stroke` to add even more classes. For example if you wanted the spinner to have a low opacity you could simply append `text-opacity-25` to the Stroke class.
 
