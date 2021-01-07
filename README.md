@@ -26,7 +26,7 @@ Add line to your \_Imports.razor
 @using TailBlazor.Spinner
 ```
 
-#### 4. Create your spinner
+### 2. Create your spinner
 
 by default everything is already configured for a medium sized, gray spinner.
 
@@ -34,7 +34,7 @@ by default everything is already configured for a medium sized, gray spinner.
 <TailBlazorSpinner />
 ```
 
-#### 4. Customize styles
+### 3. Customize styles
 
 We give you tons of options to customize just about everything. The table below outlines the parameters you can set.
 
